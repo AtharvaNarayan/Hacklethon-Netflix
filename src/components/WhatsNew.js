@@ -47,7 +47,7 @@ const WhatsNew = () => {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [features.length]);
 
   if (!isOpen) return null;
 
